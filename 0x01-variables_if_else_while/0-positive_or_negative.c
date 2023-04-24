@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main-entry
- * return:Always(0)Success
+ * Return:Always(0)Success
  */
 int main(void)
 {
@@ -15,6 +15,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	printf("print integer value, whether negative or positive %d", n);
+	printf("%d is a positive number \n", n);
+	printf("%d is a negative number \n", n);
+	printf("%d is zero \n", n);
 	return (0);
 }
