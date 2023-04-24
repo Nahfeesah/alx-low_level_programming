@@ -5,13 +5,12 @@
  */
 int main(void)
 {
-	char alp[24] = "abcdfghijklmnoprstuvwxyz";
-	int i;
+	char la;
 
-	for (i = 'a'; i < 'Z'; i++)
+	for (la = 'a'; la < 'Z'; la++)
 	{
-		if (i != 'e' && i != 'q')
-			putchar(i);
+		if (la != 'e' && la != 'q')
+			putchar(la);
 	}
 	putchar('\n');
 	return (0);
